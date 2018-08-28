@@ -1,0 +1,7 @@
+<templateSet group="PHP">
+  <template name="log" value="/**&#10; * Write string to log file&#10; * @param $string&#10; */&#10;private function log($string)&#10;{&#10;    Zend_Controller_Front::getInstance()&#10;        -&gt;getParam('bootstrap')&#10;        -&gt;getResource('log')&#10;        -&gt;log($string);&#10;}" description="log info" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
