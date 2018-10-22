@@ -4,4 +4,12 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="cl" value="echo(&quot;&lt;script&gt;console.log('PHP Log [File: $FILE$, Line $LINE$]:', JSON.parse('&quot; . json_encode($PARAM$) . &quot;'));&lt;/script&gt;&quot;);" description="echo console.log statement in PHP" toReformat="false" toShortenFQNames="true">
+    <variable name="FILE" expression="fileName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="LINE" expression="lineNumber()" defaultValue="" alwaysStopAt="false" />
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
