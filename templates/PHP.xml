@@ -12,4 +12,11 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="vd" value="var_dump(&quot;[File: $FILE$, Line $LINE$]:&quot;, $END$);" description="var_dump statement in PHP" toReformat="false" toShortenFQNames="true">
+    <variable name="FILE" expression="fileName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="LINE" expression="lineNumber()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
