@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="gh-chat/" type="PLAIN_TEXT" />
       <mapping ext="asdasd" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
