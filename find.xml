@@ -2,8 +2,6 @@
   <component name="FindSettings">
     <option name="customScope" value="Current File" />
     <option name="defaultScopeName" value="Current File" />
-    <option name="regularExpressions" value="true" />
-    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Current File" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
@@ -14,7 +12,7 @@
     <mask>*.mxml</mask>
     <mask>*.phtml</mask>
     <mask>*.css</mask>
-    <mask>*.php</mask>
     <mask>*.js</mask>
+    <mask>*.php</mask>
   </component>
 </application>
