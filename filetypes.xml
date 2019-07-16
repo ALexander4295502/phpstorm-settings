@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="gh-chat/" type="PLAIN_TEXT" />
       <mapping ext="asdasd" type="PLAIN_TEXT" />
+      <mapping pattern="no-timesheets-placeholder" type="SVG" />
     </extensionMap>
   </component>
 </application>

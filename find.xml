@@ -2,6 +2,10 @@
   <component name="FindSettings">
     <option name="customScope" value="Current File" />
     <option name="defaultScopeName" value="Current File" />
+    <option name="localCaseSensitive" value="true" />
+    <option name="localWholeWordsOnly" value="true" />
+    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="Current File" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
@@ -10,9 +14,10 @@
     <mask>*.java</mask>
     <mask>*.as</mask>
     <mask>*.mxml</mask>
-    <mask>*.js</mask>
     <mask>*.css</mask>
-    <mask>*.phtml</mask>
+    <mask>*.js</mask>
     <mask>*.php</mask>
+    <mask>*DAO.php</mask>
+    <mask>*.phtml</mask>
   </component>
 </application>
