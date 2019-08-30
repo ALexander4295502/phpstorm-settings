@@ -2,9 +2,8 @@
   <component name="FindSettings">
     <option name="customScope" value="Current File" />
     <option name="defaultScopeName" value="Current File" />
-    <option name="regularExpressions" value="true" />
-    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Current File" />
+    <option name="FILE_MASK" value="*DAO.php" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -14,9 +13,9 @@
     <mask>*.mxml</mask>
     <mask>*.css</mask>
     <mask>*.js</mask>
-    <mask>*DAO.php</mask>
     <mask>*.sh</mask>
     <mask>*.phtml</mask>
     <mask>*.php</mask>
+    <mask>*DAO.php</mask>
   </component>
 </application>
