@@ -10,11 +10,11 @@
     <mask>*.java</mask>
     <mask>*.as</mask>
     <mask>*.mxml</mask>
-    <mask>*.css</mask>
     <mask>*.js</mask>
     <mask>*.sh</mask>
     <mask>*.phtml</mask>
     <mask>*DAO.php</mask>
     <mask>*.php</mask>
+    <mask>*.css</mask>
   </component>
 </application>
