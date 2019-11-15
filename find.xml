@@ -3,6 +3,7 @@
     <option name="customScope" value="Current File" />
     <option name="defaultScopeName" value="Current File" />
     <option name="SEARCH_SCOPE" value="Current File" />
+    <option name="FILE_MASK" value="*.phtml" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -13,8 +14,8 @@
     <mask>*.js</mask>
     <mask>*.sh</mask>
     <mask>*DAO.php</mask>
-    <mask>*.phtml</mask>
     <mask>*.css</mask>
     <mask>*.php</mask>
+    <mask>*.phtml</mask>
   </component>
 </application>
