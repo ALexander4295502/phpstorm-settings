@@ -25,4 +25,11 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="pvd" value="echo &quot;\n\x1b[47m\x1b[30m[File: $FILE$, Line $LINE$]:\n&quot;;&#10;var_dump($END$);&#10;echo &quot;\x1b[0m\n&quot;;" description="pretty var_dump interminal with color" toReformat="false" toShortenFQNames="true">
+    <variable name="FILE" expression="fileName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="LINE" expression="lineNumber()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
